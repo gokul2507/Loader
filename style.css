@@ -23,7 +23,6 @@ body {
   position: relative;
 }
 
-
 .ring {
   width: 150px;
   height: 150px;
@@ -48,7 +47,7 @@ body {
   background: #93ff2d;
   bottom: 15px;
   left: 15px;
-  box-shadow: 0 0 0 2px #24ecff33, 0 0 0 6px #24ecff22, 0 0 0 12px #24ecff11,
+  box-shadow: 0 0 0 2px #93ff2d33, 0 0 0 6px #93ff2d22, 0 0 0 12px #93ff2d11,
     0 0 20px #93ff2d, 0 0 50px #93ff2d;
 }
 
@@ -64,7 +63,7 @@ body {
   top: 15px;
   right: 15px;
   box-shadow: 0 0 0 2px #24ecff33, 0 0 0 6px #24ecff22, 0 0 0 12px #24ecff11,
-    0 0 20px #93ff2d, 0 0 50px #93ff2d;
+    0 0 20px #24ecff, 0 0 50px #24ecff;
 }
 
 .ring:nth-child(1) {
@@ -76,23 +75,23 @@ body {
   background: #e41cf8;
   bottom: 15px;
   left: 15px;
-  box-shadow: 0 0 0 2px #24ecff33, 0 0 0 6px #24ecff22, 0 0 0 12px #24ecff11,
-    0 0 20px #93ff2d, 0 0 50px #93ff2d;
+  box-shadow: 0 0 0 2px #e41cf833, 0 0 0 6px #e41cf822, 0 0 0 12px #e41cf811,
+    0 0 20px #e41cf8, 0 0 50px #e41cf8;
 }
 
 .ring:nth-child(3) {
   top: 58px;
   position: absolute;
-  border-right: 4px solid red;
+  border-right: 4px solid #ff5736;
   animation: anima 4s linear infinite;
 }
 
 .ring:nth-child(3)::before {
-  background: red;
+  background: #ff5736;
   top: 15px;
   right: 15px;
-  box-shadow: 0 0 0 2px #24ecff33, 0 0 0 6px #24ecff22, 0 0 0 12px #24ecff11,
-    0 0 20px #93ff2d, 0 0 50px #93ff2d;
+  box-shadow: 0 0 0 2px #ff573633, 0 0 0 6px #ff573622, 0 0 0 12px #ff573611,
+    0 0 20px #ff5736, 0 0 50px #ff5736;
 }
 
 @keyframes anima {

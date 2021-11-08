@@ -40,7 +40,7 @@ body {
 
 .ring:nth-child(2) {
   border-left: 4px solid #93ff2d;
-  animation: anima 10s linear infinite;
+  animation: anima 4s linear infinite;
 }
 
 .ring:nth-child(2)::before {
@@ -55,7 +55,7 @@ body {
   bottom: 64px;
   position: absolute;
   border-right: 4px solid #24ecff;
-  animation: anima 10s linear infinite;
+  animation: anima 4s linear infinite;
 }
 
 .ring:nth-child(4)::before {
@@ -68,7 +68,7 @@ body {
 
 .ring:nth-child(1) {
   border-left: 4px solid #e41cf8;
-  animation: anima 10s linear infinite;
+  animation: anima 4s linear infinite;
 }
 
 .ring:nth-child(1)::before {
@@ -83,7 +83,7 @@ body {
   top: 64px;
   position: absolute;
   border-right: 4px solid #ff5736;
-  animation: anima 10s linear infinite;
+  animation: anima 4s linear infinite;
 }
 
 .ring:nth-child(3)::before {
